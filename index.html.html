@@ -1,57 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>Coming Soon</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            padding: 20px;
-        }
-
-        header, footer {
-            background-color: #333;
-            color: #fff;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
             text-align: center;
-            padding: 10px;
         }
 
-        main {
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .countdown {
+            font-size: 2em;
             margin-top: 20px;
+            color: #555;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #333;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        .social-icons a:hover {
+            color: #ff4500;
         }
     </style>
 </head>
+
 <body>
-
-    <header>
-        <h1>Your Website</h1>
-    </header>
-
-    <main>
-        <section>
-            <h2>Welcome to Your Website!</h2>
-            <p>This is a simple static website.</p>
-        </section>
-
-        <section>
-            <h2>About Us</h2>
-            <p>Write something about your website or yourself here.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2023 Your Website. All rights reserved.</p>
-    </footer>
-
+    <div class="container">
+        <h1>Coming Soon!</h1>
+        <p>We're working hard to bring you something awesome. Stay tuned for updates.</p>
+        <div class="countdown">Countdown Timer Here</div>
+        <div class="social-icons">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </div>
 </body>
+
 </html>
-
-<!-- <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
-</html> -->
